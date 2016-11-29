@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation">
+            android:configChanges="orientation|keyboardHidden|screenSize">
 
             <!--
             android:screenOrientation="portrait"

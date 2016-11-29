@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements SongMetadataFragm
     };
 
     //MusicScanner
-//    private ArrayList<Song>     musicFiles;
+    //private ArrayList<Song>     musicFiles;
 
     //MusicPlayer Service
     private MusicPlayer         musicPlayer;
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements SongMetadataFragm
     @Override
     public void onConfigurationChanged(Configuration newConfig)
     {
-        // manifest use android:configChanges="orientation"
+        super.onConfigurationChanged(newConfig);
     }
 
     @Override
